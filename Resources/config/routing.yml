@@ -1,0 +1,3 @@
+MQMCheckoutBundle_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: MQMCheckoutBundle:Default:index }
