@@ -2,9 +2,9 @@
 
 namespace MQM\CheckoutBundle\Test\Checkout;
 
-use MQM\CheckoutBundle\Checkout\CheckoutInterface;
+
 use MQM\CheckoutBundle\Model\CheckoutManagerInterface;
-use Symfony\Bundle\FrameworkBundle\Tests\Functional\AppKernel;
+
 
 class CheckoutManagerTest extends \Symfony\Bundle\FrameworkBundle\Test\WebTestCase
 {   

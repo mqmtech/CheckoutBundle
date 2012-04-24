@@ -2,8 +2,8 @@
 
 namespace MQM\CheckoutBundle\Checkout;
 
-use MQM\OrderBundle\Model\OrderInterface;
-use MQM\OrderBundle\Model\OrderItemInterface;
+
+
 use MQM\ShoppingCartBundle\Model\ShoppingCartInterface;
 use MQM\PricingBundle\Pricing\PricingManagerInterface;
 use MQM\OrderBundle\Model\OrderFactoryInterface;
