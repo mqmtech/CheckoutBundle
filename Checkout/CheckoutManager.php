@@ -39,10 +39,6 @@ class CheckoutManager
         $shoppingCartItems = $shoppingCart->getItems();
         if ($shoppingCartItems) {
             foreach ($shoppingCartItems as $item) {
-                //Verify stock
-                //stockManager->isStock($item->getProduct(), $item->getQuantity());
-                //if no stock break and show error!
-
                 //Calculate price per unit and total (and check for discountRules)
                 $price = $pricingManager->getProductPrice($item->getProduct());
                 $item->setBasePrice($price->getValue());
